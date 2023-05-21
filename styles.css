@@ -1,0 +1,173 @@
+#wave {
+    position: absolute;
+    top: 520px;
+    left: 0px;
+    animation-name: wave;
+    animation-duration: 3s;
+}
+
+@keyframes wave {
+    from {
+        opacity: 0%;
+        top: 600px;
+    }
+
+    to {
+        opacity: 100%;
+        top: 520px;
+    }
+}
+
+body {
+    background-color: #00cba9;
+}
+
+h1 {
+    color: white;
+    font-family: Didot;
+    font-size: 40px;
+    font-weight: 300;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    animation-name: title;
+    animation-duration: 3s;
+}
+
+span {
+    font-weight: bolder;
+    color: black;
+}
+
+@keyframes title {
+    from {
+        opacity: 0%;
+        top: 0%;
+    }
+
+    to {
+        opacity: 100%;
+        top: 25%;
+    }
+}
+
+#btn1 {
+    height: 50px;
+    width: 120px;
+    border: 0px solid transparent;
+    border-radius: 30px;
+    position: absolute;
+    left: 510px;
+    top: 55%;
+    cursor: pointer;
+    animation-name: btn;
+    animation-duration: 3s;
+    transition: 1s ease;
+    background-color: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: 1s ease;
+}
+
+@keyframes btn {
+    from {
+        opacity: 0%;
+        top: 65%;
+    }
+
+    to {
+        opacity: 100%;
+        top: 55%;
+    }
+}
+
+#btn1:hover {
+    height: 60px;
+    width: 130px;
+    transition: 1s ease;
+    box-shadow: -10px 10px;
+}
+
+a:hover {
+    transition: 1s ease;
+    font-size: 20px;
+}
+
+#img2 {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 300px;
+    top: 200px;
+    animation-name: profile;
+    animation-duration: 3s;
+
+}
+
+@keyframes profile {
+    from {
+        opacity: 0%;
+        left: 0px;
+    }
+
+    to {
+        opacity: 100%;
+        left: 300px;
+    }
+}
+
+#div1 {
+    height: 850px;
+    width: 640px;
+    background-color: #F15A59;
+    position: absolute;
+    top: 0px;
+    left: 800px;
+}
+
+#btn2 {
+    position: absolute;
+    height: 50px;
+    width: 120px;
+    border: 0px solid transparent;
+    border-radius: 30px;
+    position: absolute;
+    left: 900px;
+    top: 55%;
+    cursor: pointer;
+    animation-name: btn;
+    animation-duration: 3s;
+    transition: 1s ease;
+    font-size: 20px;
+}
+
+#btn2:hover {
+    height: 60px;
+    width: 130px;
+    transition: 1s ease;
+    box-shadow: -10px 10px;
+}
+
+#div3 {
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    opacity: 80%;
+    display: none;
+    box-shadow: 10px 10px white;
+}
+
+h2 {
+    color: white;
+    font-family: Didot;
+    font-size: 30px;
+    font-weight: 300;
+    padding: 30px;
+}
